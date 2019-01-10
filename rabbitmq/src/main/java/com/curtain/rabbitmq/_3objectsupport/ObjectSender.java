@@ -6,7 +6,10 @@ import org.springframework.stereotype.Component;
 
 import java.io.Serializable;
 import java.util.Date;
-
+/**
+ * @author Curtain
+ * @date 2019/1/10 11:02
+ */
 @Component
 public class ObjectSender {
 

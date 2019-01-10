@@ -6,6 +6,11 @@ import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
+/**
+ * @author Curtain
+ * @date 2019/1/10 9:13
+ */
+
 @Component
 public class HelloSender {
 

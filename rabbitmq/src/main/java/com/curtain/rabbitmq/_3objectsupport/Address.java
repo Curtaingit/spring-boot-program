@@ -1,7 +1,10 @@
 package com.curtain.rabbitmq._3objectsupport;
 
 import java.io.Serializable;
-
+/**
+ * @author Curtain
+ * @date 2019/1/10 10:33
+ */
 public class Address implements Serializable {
         private String city;
         private String province;
