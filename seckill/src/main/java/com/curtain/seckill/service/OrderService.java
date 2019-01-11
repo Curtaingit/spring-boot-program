@@ -145,6 +145,7 @@ public class OrderService {
 
     public void deleteWrongOrder() {
         Integer id = map.get(Thread.currentThread().getName());
+        map.remove(Thread.currentThread().getName());
         orderRepository.deleteById(id);
     }
 }
